@@ -35,7 +35,7 @@ class Character
     }
     public function getClasse()
     {
-        return self::CLASSE;
+        return static::CLASSE;
     }
 }
 
@@ -45,6 +45,7 @@ class Paladin extends Character
     protected $agility = 8;
     protected $strength = 10;
     protected $mana = 3;
+    const CLASSE = "Paladin";
 
     public function __construct($name)
     {
@@ -67,6 +68,7 @@ class Mage extends Character
     protected $agility = 10;
     protected $strength = 3;
     protected $mana = 10;
+    const CLASSE = "Mage";
 
     public function __construct($name)
     {
