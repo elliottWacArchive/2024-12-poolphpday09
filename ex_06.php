@@ -2,12 +2,12 @@
 
 class Character
 {
-    private $name;
-    private $endurance = 50;
-    private $agility = 2;
-    private $strength = 2;
-    private $mana = 2;
-    private const CLASSE = "Character";
+    protected $name;
+    protected $endurance = 50;
+    protected $agility = 2;
+    protected $strength = 2;
+    protected $mana = 2;
+    protected const CLASSE = "Character";
 
     public function __construct($name)
     {
@@ -41,10 +41,10 @@ class Character
 
 class Paladin extends Character
 {
-    private $endurance = 100;
-    private $agility = 8;
-    private $strength = 10;
-    private $mana = 3;
+    protected $endurance = 100;
+    protected $agility = 8;
+    protected $strength = 10;
+    protected $mana = 3;
 
     public function __construct($name)
     {
@@ -63,10 +63,10 @@ class Paladin extends Character
 
 class Mage extends Character
 {
-    private $endurance = 70;
-    private $agility = 10;
-    private $strength = 3;
-    private $mana = 10;
+    protected $endurance = 70;
+    protected $agility = 10;
+    protected $strength = 3;
+    protected $mana = 10;
 
     public function __construct($name)
     {

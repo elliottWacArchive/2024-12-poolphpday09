@@ -2,12 +2,12 @@
 
 class Character
 {
-    private $name;
-    private $endurance = 50;
-    private $agility = 2;
-    private $strength = 2;
-    private $mana = 2;
-    private const CLASSE = "Character";
+    protected $name;
+    protected $endurance = 50;
+    protected $agility = 2;
+    protected $strength = 2;
+    protected $mana = 2;
+    protected const CLASSE = "Character";
 
     public function __construct($name)
     {
