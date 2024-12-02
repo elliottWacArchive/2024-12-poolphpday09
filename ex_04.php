@@ -72,6 +72,6 @@ class MyTinyCalculator
 
     public function showResult()
     {
-        echo $this->result;
+        return $this->result;
     }
 }
