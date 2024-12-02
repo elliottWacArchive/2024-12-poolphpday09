@@ -15,7 +15,7 @@ class Character implements iMove
     protected $agility = 2;
     protected $strength = 2;
     protected $mana = 2;
-    protected const CLASSE = "Character";
+    const CLASSE = "Character";
 
     public function __construct($name)
     {
