@@ -74,15 +74,15 @@ class Paladin extends Character
     public function __construct($name)
     {
         $this->name = $name;
-        echo $this->name . ": I’ll engrave my name in the history !\n";
+        echo $this->name . ": I'll engrave my name in the history !\n";
     }
     public function attack()
     {
-        echo $this->name . ": I’ll crush you with my hammer !\n";
+        echo $this->name . ": I'll crush you with my hammer !\n";
     }
     public function __destruct()
     {
-        echo $this->name . ": Aarrg I can’t believe I’m dead...\n";
+        echo $this->name . ": Aarrg I can't believe I'm dead...\n";
     }
 }
 
