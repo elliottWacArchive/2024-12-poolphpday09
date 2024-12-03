@@ -43,7 +43,7 @@ class Character implements iMove
     }
     public function getClasse()
     {
-        return static::CLASSE;
+        return self::CLASSE;
     }
     public function moveRight()
     {

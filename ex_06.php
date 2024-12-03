@@ -35,7 +35,7 @@ class Character
     }
     public function getClasse()
     {
-        return static::CLASSE;
+        return self::CLASSE;
     }
 }
 
@@ -84,3 +84,8 @@ class Mage extends Character
         echo $this->name . ": By the four gods, I passed away...\n";
     }
 }
+// $pala = new Paladin("elliott");
+// $mage = new Mage("yoyo");
+
+// echo $mage::CLASSE . "\n";
+// echo $pala::CLASSE   . "\n";
